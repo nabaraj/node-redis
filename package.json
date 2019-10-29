@@ -1,0 +1,18 @@
+{
+  "name": "redis-node-tutorial",
+  "version": "1.0.0",
+  "description": "A step by step guide to setup caching with Redis on a NodeJS Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "redis": "^2.8.0"
+  }
+}
